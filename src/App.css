@@ -1,0 +1,300 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navBar{
+  background-color: black;
+  height:10px;
+  color: white;
+  font-size: 30px;
+  padding-top: 1px;
+  padding-bottom: 70px;
+  
+}
+body{
+  background-image: url("img.jpg");
+  height: 100%;
+  overflow: hidden;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-bar {
+  height: 60px;
+  width: 900px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+  position: relative;
+  background: #fff;
+  margin: auto;
+  
+}
+.input {
+  border:none;
+  height: 25px;
+  width: 200px;
+  color: #b6b6b6;
+  font-size: 15px;
+  outline: none;
+  display: flex;
+}
+
+
+
+.label {
+  color: #aaaaaa;
+  position: absolute;
+  top: -2px;
+  pointer-events: none;
+  transition: all 0.5s ease;
+}
+
+.input2 {
+  border:none;
+  height: 25px;
+  width:200px;
+  color: #b6b6b6;
+  font-size: 15px;
+  outline: none;
+}
+
+
+
+.label2 {
+  color: #aaaaaa;
+  position: absolute;
+  top: 13px;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  margin-left:250px;
+}
+
+
+
+.input3{
+  border:none;
+  height: 25px;
+  width: 200px;
+  color: #b6b6b6;
+  font-size: 15px;
+  outline: none;
+}
+
+
+
+.label3 {
+  color: #aaaaaa;
+  position: absolute;
+  
+  pointer-events: none;
+  transition: all 0.5s ease;
+  margin-left: 450px;
+}
+
+.input:not(:placeholder-shown) + .label {
+  font-size: 9px;
+  top: 3px;
+  
+}
+
+.input:focus ~ .label {
+  font-size: 9px;
+  top: -10px;
+  color: #4279a3;
+  transition: all 0.5s ease;
+}
+
+.input2:not(:placeholder-shown) + .label2{
+  font-size: 15px;
+  top: 16px;
+  
+}
+
+.input2:focus ~ .label2 {
+  font-size: 9px;
+  top: 1px;
+  color: #4279a3;
+  transition: all 0.5s ease;
+}
+.input3:not(:placeholder-shown) + .label3{
+  font-size: 15px;
+  top: 16px;
+  
+}
+
+.input3:focus ~ .label3 {
+  font-size: 9px;
+  top: 1px;
+  color: #4279a3;
+  transition: all 0.5s ease;
+}
+.input4:not(:placeholder-shown) + .label4{
+  font-size: 15px;
+  top: 16px;
+  
+}
+
+.input4:focus ~ .label4{
+  font-size: 9px;
+  top: 1px;
+  color: #4279a3;
+  transition: all 0.5s ease;
+}
+
+.input4{
+  border:none;
+  height: 25px;
+  width: 200px;
+  color: #b6b6b6;
+  font-size: 15px;
+  outline: none;
+}
+
+
+
+.label4 {
+  color: #aaaaaa;
+  position: absolute;
+  
+  pointer-events: none;
+  transition: all 0.5s ease;
+  margin-left: 650px;
+}
+.search-btn{
+border-radius: 100px;
+border: none;
+background-color:blue;
+padding: auto;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+}
+.search-btn:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.link{
+  color:white;
+  font-size:20px;
+  margin-bottom: 2px;
+}
+.comp2{
+  margin:20px;
+  
+  
+
+  
+ 
+  align-content: right;
+}
+.innerComp{
+  border:2px solid white;
+  display: inline;
+  float: right;
+  background-color: white;
+  border-radius: 20px;
+  width: 65px;
+  height: 30px;
+  padding: auto;
+
+}
+.avatar{
+  float:right
+}
+.menu{
+  padding: 5px;
+}
+.globe{
+  
+  display: inline;
+  padding: 5px;
+  margin-top:900px;
+  margin-left: 1350px;
+}
+.globpara{
+  display: inline;
+  margin-top: -100px;
+}
+.globicon{
+  display: inline;
+ 
+
+padding-bottom: 5px;
+margin-top: 10px;
+}
+h1{
+  font-size: 80px;
+  font-weight:1000px;
+  
+ 
+  
+}
+.explorebut{
+  border-radius: 10px;
+  font-size: 20px;
+  float: left;
+  margin-top: -50px;
+  border: none;
+}
+.comp3{
+  text-align: left;
+  margin-left: 250px;
+  
+}
+.globe{
+  margin-left:1450px
+ 
+}
+.google{
+  margin-top: 250px;
+  width: 120px;
+  
+  align-content: center;
+}
