@@ -1,0 +1,51 @@
+.navbar {
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  
+  
+ 
+  
+  .navbar-head {
+    color: #fff;
+    float: right;
+    
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    align-items: center;
+   
+  }
+  
+  .innerComp{
+    border:2px solid white;
+    display: inline;
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+    width: 65px;
+    height: 30px;
+    padding: auto;
+  
+  }
+  
+  
+   
+  
+    
+  
+    
+  
+   
+  

@@ -1,0 +1,38 @@
+.comp2{
+   
+    display: flex;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .globpara{
+    width: 200px;
+    
+ 
+  }
+  .innerComp{
+    
+    border: 2px solid rgb(158, 108, 108);
+    width:60px;
+    margin-top: 15px;
+    z-index:2;
+    
+  
+  }
+  .container{
+      
+      
+      height: 50px;
+  }
+
+  .innerComp:hover {
+    background: black;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    z-index:5;
+}
+ 
+  

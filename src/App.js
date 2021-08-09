@@ -16,8 +16,10 @@ import {
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      
+      
       <Router>
+      <NavBar/>
       
     
     <Route path="/home">

@@ -23,7 +23,7 @@ export default function Searchbar() {
   <input type="text"class="input4" placeholder="&nbsp;"/>
   <span class="label4">Guests<br/>add guest</span>
   <span class="highlight3"></span>
-  <button class="search-btn">
+  <button class="search-btn" onClick={()=>{alert("test search button")}}>
       <IoMdSearch size={40}/>
       
        
