@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/clumpcoder2/static/css/main.7c1e84b5.chunk.css",
+    "main.js": "/clumpcoder2/static/js/main.d71ab2d5.chunk.js",
+    "main.js.map": "/clumpcoder2/static/js/main.d71ab2d5.chunk.js.map",
+    "runtime-main.js": "/clumpcoder2/static/js/runtime-main.99d85515.js",
+    "runtime-main.js.map": "/clumpcoder2/static/js/runtime-main.99d85515.js.map",
+    "static/js/2.41ae946b.chunk.js": "/clumpcoder2/static/js/2.41ae946b.chunk.js",
+    "static/js/2.41ae946b.chunk.js.map": "/clumpcoder2/static/js/2.41ae946b.chunk.js.map",
+    "static/js/3.d114725e.chunk.js": "/clumpcoder2/static/js/3.d114725e.chunk.js",
+    "static/js/3.d114725e.chunk.js.map": "/clumpcoder2/static/js/3.d114725e.chunk.js.map",
+    "index.html": "/clumpcoder2/index.html",
+    "static/css/main.7c1e84b5.chunk.css.map": "/clumpcoder2/static/css/main.7c1e84b5.chunk.css.map",
+    "static/js/2.41ae946b.chunk.js.LICENSE.txt": "/clumpcoder2/static/js/2.41ae946b.chunk.js.LICENSE.txt",
+    "static/media/globe.aa21bac7.svg": "/clumpcoder2/static/media/globe.aa21bac7.svg",
+    "static/media/App.css": "/clumpcoder2/static/media/img.a31875b7.jpg",
+    "static/media/logo.6ce24c58.svg": "/clumpcoder2/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99d85515.js",
+    "static/js/2.41ae946b.chunk.js",
+    "static/css/main.7c1e84b5.chunk.css",
+    "static/js/main.d71ab2d5.chunk.js"
+  ]
+}
